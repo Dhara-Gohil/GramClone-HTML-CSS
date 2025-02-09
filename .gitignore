@@ -1,0 +1,27 @@
+# Mac system files
+.DS_Store
+
+# Thumbnails and system files (common for Linux)
+._*
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore environment files (if you add any in future)
+.env
+
+# Ignore build or dist folders (if you compile code later)
+dist/
+build/
+
+# Cache files
+.cache/
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
