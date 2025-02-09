@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fullcontainer{
+    height: 100vh;
+    background-image: url(image/background.png);
+    background-size: cover;
+    background-position: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+nav{
+    flex: 1; 
+    padding-left: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.cart{
+    width: 35px;
+    cursor: pointer;
+}
+
+
+.middle h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color: #232d60;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.middle h4{
+    font-size: 18px;
+    font-weight: lighter;
+    color:#6a7199;
+}
+.middle{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.middle .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.arrow{
+    padding-top: 20px;
+}
+.arrow img{
+    height: 35px;
+    padding-left: 10px;
+}
+.poster{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.links{
+    transform:rotate(-90deg);
+    position: absolute;
+    left: -90px;
+    bottom: 140px;
+}
+.links a{
+    text-decoration: none;
+    font-size: small;
+    padding-left: 20px;
+    color:#6a7199  
+}

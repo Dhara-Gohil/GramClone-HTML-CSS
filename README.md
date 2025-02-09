@@ -33,6 +33,10 @@ This project is a frontend clone of Instagram, built using HTML and CSS. I creat
 ### Homepage
 ![Homepage](screenshots/homepage.png)
 
+## Practice Template
+
+This is a small practice template I created to improve my HTML and CSS skills. You can find it in the `template` folder.
+
 
 ## License
 
