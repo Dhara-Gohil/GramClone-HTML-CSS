@@ -31,7 +31,8 @@ This project is a frontend clone of Instagram, built using HTML and CSS. I creat
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Screenshot](ScreenShot/Screenshot.png)
+
 
 ## Practice Template
 
